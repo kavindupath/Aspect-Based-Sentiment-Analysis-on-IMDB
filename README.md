@@ -20,11 +20,12 @@ To extend traditional sentiment classification into a more fine-grained **aspect
 
 ## Experiments Implemented
 Three model architectures were tested:
-LSTM + Attention (Base Model)
-2-layer LSTM + Attention
-LSTM + Multi-Head Attention
+- LSTM + Attention (Base Model)
+- 2-layer LSTM + Attention
+- LSTM + Multi-Head Attention
+  
+Each model is trained for 10 epochs and evaluated on a separate test set to measure accuracy. 
 
-Each model is trained for 10 epochs and evaluated on a separate test set to measure accuracy.
 ---
 
 ## 📦 Dataset
